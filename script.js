@@ -8,7 +8,7 @@ var mp4 = document.getElementById("mp4");
 
 //var server = 'http://localhost:4000';
 
-var server = 'https://thejeshwarab.github.io/TubeDesk/';
+var server = 'https://tubedesk.herokuapp.com/';
 
 
 function redirectMp3(query) {
