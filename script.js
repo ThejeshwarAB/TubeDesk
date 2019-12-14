@@ -6,7 +6,9 @@ var mp3 = document.getElementById("mp3");
 
 var mp4 = document.getElementById("mp4");
 
-var server = 'http://localhost:4000';
+//var server = 'http://localhost:4000';
+
+var server = 'https://thejeshwarab.github.io/TubeDesk/';
 
 
 function redirectMp3(query) {
