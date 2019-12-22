@@ -7,7 +7,7 @@ const port = process.env.port || 3002;
 
 app.use(cors());
 
-app.listen(4000, () => {
+app.listen(port, () => {
 console.log('Server works at:', port);
 });
 
