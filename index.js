@@ -3,12 +3,12 @@ const cors = require('cors');
 const ytdl = require('ytdl-core');
 
 const app = express();
-const port = process.env.port || 8080;
+const PORT = process.env.port || 8080;
 
 app.use(cors());
 
-app.listen(port, () => {
-console.log('Server works at:', port);
+app.listen(PORT, () => {
+console.log('Server works at:', PORT);
 });
 
 
