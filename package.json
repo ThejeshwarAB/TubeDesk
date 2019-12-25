@@ -2,11 +2,9 @@
   "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "email.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node email.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,8 +15,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  },
-  "engines": {
-    "node": "12.11.1"
   }
 }
