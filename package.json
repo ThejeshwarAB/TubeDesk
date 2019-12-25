@@ -2,9 +2,9 @@
   "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "email.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node email.js"
+    "start": "npm install && node index.js"
   },
   "author": "",
   "license": "ISC",
